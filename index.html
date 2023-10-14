@@ -4,118 +4,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Tenor Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <title>Реставрация мебели</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="master_class.html">Мастер-класс</a>
-            <a href="mebel.html">Мебель на заказ</a>
-            <a href="">Контакты</a>
-            <a href="about_us.html">О нас</a>
+        <nav class="con_head">
+            <ul class="con_nav">
+                <li><a class="el_li_header" href="master_class.html">Мастер-класс</a></li>
+                <li><a class="el_li_header" href="furniture.html">Мебель на заказ</a></li>
+            </ul>
+            <div><a href="index.html"><img src="img/logo.png"></a></div>
+            <ul class="con_nav">
+                <li><a class="el_li_header" href="">Контакты</a></li>
+                <li><a class="el_li_header" href="about_us.html">О нас</a></li>
+            </ul>
         </nav>
     </header>
-    <div>
-        <img src="back_image_index">
-        <p>Столярная мастерская NIKASON BRAND</p>
-        <h1>Изготовление и реставрация мебели</h1>
-        <p>Авторская мебель ручной работы, сделанная с душой и трепетом.</p>
-        <button>Смотреть услуги</button>
-        <a href="#"><img src="tg"></a>
-        <a href="#"><img src="inst"></a>
-        <a href="#"><img src="wa"></a>
-    </div>
     <main>
-        <section>
+        <section class="con_front_grid">
+            <img src="img/mainph.png">
+            <div class="con_front">
+                <div>
+                    <p class="mobile">Столярная мастерская NIKASON BRAND</p>
+                    <h1>Изготовление и реставрация мебели</h1>
+                    <p>Авторская мебель ручной работы, сделанная с душой и трепетом.</p>
+                    <button class="button_style1">Смотреть услуги</button>
+                </div>
+                <div class="socm_con">
+                    <a href="#"><img src="img/tg.png"></a>
+                    <a href="#"><img src="img/inst.png"></a>
+                    <a href="#"><img src="img/wa.png"></a>
+                </div>
+            </div>
+        </section>
+        <section class="con_main1">
             <h2>NIKASON BRAND ЭТО</h2>
-            <p>Производство авторской мебели из массива</p>
-            <p>Реставрация, редизайн, ремонт деревянной мебели</p>
-            <p>Производство мебели по индивидуальным размерам</p>
+            <div class="con_main1_grid">
+                <p>Производство авторской<br>мебели из массива</p>
+                <p>Реставрация, редизайн, ремонт<br>деревянной мебели</p>
+                <p>Производство мебели по<br>индивидуальным размерам</p>
+            </div>
+        </section>
+        <section class="con_main1">
             <h2>Более 10 лет мы производим</h2>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>Двери</p>
-                        </td>
-                        <td>
-                            <p>Шкафы</p>
-                        </td>
-                        <td>
-                            <p>Столы и стулья</p>
-                        </td>
-                        <td>
-                            <p>Комоды</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Тумбы</p>
-                        </td>
-                        <td>
-                            <p>Арки</p>
-                        </td>
-                        <td>
-                            <p>Перегородки</p>
-                        </td>
-                        <td>
-                            <p>Кровати</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="con_main2_grid">
+                <div class="borderstyle_right borderstyle_bottom border-bottomMobile border-rightMobile">
+                    <img src="img/door.png">
+                    <p>Двери</p>
+                </div>
+                <div class="borderstyle_right borderstyle_bottom border-bottomMobile">
+                    <img src="img/closet.png">
+                    <p>Шкафы</p>
+                </div>
+                <div class="borderstyle_right borderstyle_bottom border-bottomMobile border-rightMobile">
+                    <img src="img/chair.png">
+                    <p>Столы и стулья</p>
+                </div>
+                <div class="borderstyle_bottom border-bottomMobile">
+                    <img src="img/drawers.png">
+                    <p>Комоды</p>
+                </div>
+                <div class="borderstyle_right border-bottomMobile border-rightMobile">
+                    <img src="img/drawers1.png">
+                    <p>Тумбы</p>
+                </div>
+                <div class="borderstyle_right border-bottomMobile">
+                    <img src="img/gate.png">
+                    <p>Арки</p>
+                </div>
+                <div class="borderstyle_right border-rightMobile">
+                    <img src="img/border.png">
+                    <p>Перегородки</p>
+                </div>
+                <div>
+                    <img src="img/bed.png">
+                    <p>Кровати</p>
+                </div>
+            </div>
         </section>
-        <section>
+        <section class="con_main2">
             <h2>NIKASON BRAND это семейная мастерская</h2>
-            <p>Саргылана и Никита Колодезниковы-Марчитовы</p>
-            <p>Саргылана - рестовратор-декоратор, преображает и дарит вторую жизнь сатрой мебели
-                Никита - мастер по дереву, вся мебель делается его умелыми руками.
-            </p>
-            <button>Подробнее о нас</button>
+            <div class="con_main3_grid background_EBEEEB">
+                <img src="img/personphoto.png">
+                <div>
+                    <h4>Саргылана и Никита Колодезниковы-<br>
+                        Матчитовы</h4>
+                    <p>Саргылана - рестовратор-декоратор, преображает и дарит<br>
+                        вторую жизнь старой мебели<br><br>
+                        Никита - мастер по дереву, вся мебель делается его<br>
+                        умелыми руками.
+                    </p>
+                    <button class="button_style1">Подробнее о нас</button>
+                </div>
+            </div>
+        </section>
+        <section class="con_vid">
             <h2>Посмотрите видео о нас</h2>
-            <video></video>
+            <video class="video_style"></video>
         </section>
-        <section>
+        <section class="con_main2">
             <h2>Наши услуги</h2>
-            <div>
-                <p>Мебель на заказ</p>
-                <p>Мебель под заказ по индивидуальным размерам это гарантия отличного качества, долговечность,
-                    экологичность и эксклюзивность наших изделий
-                    Возможность создания своего неповторимого стиля, уникальность и неповторимость каждого изделия.
-                </p>
-                <button>Заказать мебель</button>
+            <div class="con_main4_grid background_E3DACE">
+                <img src="img/bathdraw.png">
+                <div>
+                    <h4>Мебель на заказ</h4>
+                    <p>Мебель под заказ по индивидуальным размерам это гарантия<br>
+                        отличного качества, долговечность, экологичность и<br>
+                        эксклюзивность наших изделий.<br>
+                        Возможность создания своего неповторимого стиля,<br>
+                        уникальность и неповторимость каждого изделия.
+                    </p>
+                    <button class="button_style1">Заказать мебель</button>
+                </div>
             </div>
-            <div>
-                <p>Мастер-классы</p>
-                <p>Что делать, если память о предках хочется сохранить, но к вашему интерьеру старая и испорченная
-                    мебель не подходит?
-                    Правильно, отреставрировать его и наслаждаться не только обновлённым видом мебели, но и с теплотой
-                    помнить, что эта мебель была сделана талантливыми предками.
-                </p>
-                <button>Купить мастер-класс</button>
+            <div class="con_main4_grid background_D4CDC3">
+                <img src="img/closets.png">
+                <div>
+                    <h4>Мастер-классы</h4>
+                    <p>Что делать, если память о предках хочется сохранить, но к<br>
+                        вашему интерьеру старая и испорченная мебель не<br>
+                        подходит?<br>
+                        Правильно, отреставрировать его и наслаждаться не только<br>
+                        обновлённым видом мебели, но и с теплотой помнить, что<br>
+                        эта мебель была сделана талантливыми предками.
+                    </p>
+                    <button class="button_style1">Купить мастер-класс</button>
+                </div>
             </div>
         </section>
-        <section>
-            <h2>Гарантия качества мебели от NIKASON BRAND</h2>
-            <p>На каждое изделие ставим авторский логотип (клеймо) как знак качества и узнаваемости мастера. Таким
-                образом мастер несёт ответственность за каждое изделие помеченное печатью. Есть гарантия на 12 месяцев.
-            </p>
+        <section class="con_main3 borderstyle_garant1">
+            <div class="borderstyle_garant2">
+                <h2>Гарантия качества мебели<br>
+                    от NIKASON BRAND
+                </h2>
+                <div class="border_garant_mobile1">
+                    <div class="border_garant_mobile2">
+                        <h3>На каждое изделие ставим авторский логотип (клеймо) как знак качества и<br>
+                            узнаваемости мастера. Таким образом мастер несёт ответственность за каждое<br>
+                            изделие помеченное печатью. Есть гарантия на 12 месяцев.
+                        </h3>
+                        <img src="img/logo2.png">
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <small>ИП Колодезников-Матчитов Н.И.
-            ИНН 143515646663
-        </small>
-        <a href="master_class.html">Мастер-классы</a>
-        <a href="mebel.html">Мебель на заказ</a>
-        <a href="#">Контакты</a>
-        <a href="about_us.html">о нас</a>
-        <a href="#">Политика кофиденциальности</a>
-        <a href="#">Договор оферты</a>
-        <a href="#"><img src="tg"></a>
-        <a href="#"><img src="inst"></a>
-        <a href="#"><img src="wa"></a>
+        <div class="con_footer">
+            <div class="footer_elements">
+                <div>
+                    ИП Колодезников-Матчитов Н.И.<br>
+                    ИНН 143515646663
+                </div>
+                <div>
+                    <a href="master_class.html">Мастер-классы</a>
+                    <a href="furniture.html">Мебель на заказ</a>
+                </div>
+                <div>
+                    <a href="#">Контакты</a>
+                    <a href="about_us.html">О нас</a>
+                </div>
+                <div>
+                    <a href="#">Политика кофиденциальности</a>
+                    <a href="#">Договор оферты</a>
+                </div>
+                <div>
+                    <small class="con_footer_img">
+                        <a href="#"><img src="img/tg1.png"></a>
+                        <a href="#"><img src="img/inst1.png"></a>
+                        <a href="#"><img src="img/wa1.png"></a>
+                    </small>
+                    <p>+7 967 927-22-27</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
