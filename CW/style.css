@@ -1,0 +1,111 @@
+/* Стили для шапки, основного содержимого и подвала */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.light-link {
+	color: whitesmoke;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article {
+	width: 30%;
+	margin: 10px;
+	padding: 10px;
+	background-color: #f4f4f4;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+/* Стили для кнопки "Читать далее" */
+.read-more {
+	display: block;
+	text-align: center;
+	background-color: #0074cc;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+
+/* Стили для кнопки "Читать далее" */
+.hidden-text {
+	display: none;
+}
+
+/* Стили для кнопки "Читать далее" */
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+/* Стили для галереи изображений */
+.image-gallery img {
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+}
+
+/* Стили для формы подписки */
+.subscription-form input {
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+/* Стили для успешной подписки */
+.subscription-success {
+	color: green;
+	display: none;
+}
+
+* {
+	box-sizing: border-box
+}
+
+
+.popup:not(:target) {
+	display: none;
+}
+
+.popup:target {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.full-img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 60%;
+	width: auto;
+}
+
+.close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 30px;
+	text-decoration: none;
+	color: red;
+}

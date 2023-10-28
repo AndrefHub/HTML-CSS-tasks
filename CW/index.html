@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Мой личный блог</title>
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<p><a name="logo" href="#logo">
+					<img src="img/arrowleft.png" alt="Логотип блога">
+				</a></p>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#logo" class="light-link">Главная</a></li>
+				<li><a href="#categories" class="light-link">Категории</a></li>
+				<li><a href="#author-info" class="light-link">Об авторе</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<p><a name="categories" href="#"> </a></p>
+		<article>
+			<h2>Я сделал кровать!</h2>
+			<img src="img/port2.png" alt="Изображение статьи 1" height="200">
+			<p class="hidden-text" display="none">
+				Посмотрите, какая она удобная!
+				И какая она красивая!
+				Что такое Lorem Ipsum?
+				Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+				стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
+				печатник
+				создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+				Lorem
+				Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный
+				дизайн.
+				Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в
+				60-х
+				годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах
+				которых
+				используется Lorem Ipsum.
+			</p>
+			<a class="read-more" href="#">Читать далее</a>
+		</article>
+		<article>
+			<h2>Я сделал сундук!</h2>
+			<img src="img/chest.png" alt="Изображение статьи 2" height="200">
+			<p class="hidden-text">
+				Сундук для рун. Рундук.
+				Почему он используется?
+				Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem
+				Ipsum
+				используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также
+				реальное
+				распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш
+				текст..
+				Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML
+				используют
+				Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу
+				показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие
+				годы текст
+				Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно
+				(например,
+				юмористические варианты).
+			</p>
+			<a class="read-more" href="#">Читать далее</a>
+		</article>
+	</main>
+	<aside>
+		<p><a name="author-info"></a></p>
+		<div class="author-info">
+			<h2>Об Авторе</h2>
+			<article>
+				<img class="centered" src="img/personphoto2.png" alt="Фотография автора" height="400">
+
+				<p>
+					Привет, меня зовут Джейн Смит, я — автор блога TransitionMomBlog (отвечает на вопрос — кто такая
+					Джейн),
+					который был создан, чтобы помогать женщинам переходить от полной занятости детьми и делами по дому к
+					предпринимательской деятельности (описывается проблема или цель посетителей).
+				</p>
+				<p>
+					Я открыла свой блог в 2004 году (показана квалификация Джейн: видно, что она ведет блог уже более
+					3-х
+					лет), чтобы помогать женщинам справиться с порой огромным количеством потенциальных клиентов,
+					которые
+					появляются при старте нового бизнеса да ещё и в то время, когда женщине приходится вести домашнее
+					хозяйство (отвечается на вопрос о том, как Джейн помогает людям решить их проблему или достичь
+					цели).
+				</p>
+				<p>
+					Уделяя много внимания семье, я более десяти лет занималась преподавательской деятельностью, была
+					корпоративным тренером и руководителем малого бизнеса (показано, что у Джейн есть личный опыт,
+					будучи
+					матерью, одновременно быть успешной бизнес-леди).
+				</p>
+			</article>
+		</div>
+		<div class="subscription-form">
+			<h3>Подписка</h3>
+			<form>
+				<input type="email" placeholder="Введите вашу почту" required>
+				<button type="submit">Подписаться</button>
+			</form>
+			<div class="subscription-success" style="display: none;">
+				Спасибо за подписку!
+			</div>
+		</div>
+		<div class="image-gallery">
+			<h3>Галерея изображений</h3>
+			</a>
+			<a href="#img1">
+				<img src="img/sovchair.png" alt="" height="200">
+			</a>
+
+			<div id="img1" class="popup">
+				<a href="#image-gallery" class="close">X</a>
+				<img class="full-img" src="img/sovchair.png" alt="" width="1000">
+			</div>
+
+			<a href="#img2">
+				<img src="img/table.png" alt="" height="200">
+			</a>
+
+			<div id="img2" class="popup">
+				<a href="#image-gallery" class="close">X</a>
+				<img class="full-img" src="img/table.png" alt="" width="1000">
+			</div>
+		</div>
+	</aside>
+	<footer>
+		<div class="author-info">
+			<div class="social-links">
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ссылка на социальную сеть 1</a>
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ссылка на социальную сеть 2</a>
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ссылка на социальную сеть 3</a>
+			</div>
+		</div>
+
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
