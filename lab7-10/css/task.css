@@ -1,4 +1,4 @@
-.taskCardElement{
+.taskCardElement {
     display: flex;
     width: 200px;
     height: 45px;
@@ -12,22 +12,24 @@
     margin-left: 5px;
 }
 
-
-.cardStub{
+.cardStub {
     background: none;
     color: rgba(0, 0, 0, 0.5);
     border: gray 1px solid;
 }
 
-.cardbacklog{
+.cardbacklog {
     box-shadow: -5px 0px 0px 0px #e3e3e3;
 }
-.cardinProcess{
+
+.cardinProcess {
     box-shadow: -5px 0px 0px 0px #d6e7ff;
 }
-.carddone{
+
+.carddone {
     box-shadow: -5px 0px 0px 0px #d7f9e0;
 }
-.cardbin{
+
+.cardbin {
     box-shadow: -5px 0px 0px 0px #fbe3e3;
 }

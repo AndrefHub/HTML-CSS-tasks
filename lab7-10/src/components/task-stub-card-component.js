@@ -8,7 +8,6 @@ function createCardStubComponent() {
 }
 
 export class CardStubComponent extends AbstractComponent {
-
     getTemplate() {
         return createCardStubComponent();
     }

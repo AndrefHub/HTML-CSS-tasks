@@ -5,8 +5,6 @@ export const Status = {
     BASKET: `bin`,
 };
 
-
-
 export const StatusLabel = {
     [Status.BACKLOG]: `Бэклог`,
     [Status.PROCESSING]: `В процессе`,

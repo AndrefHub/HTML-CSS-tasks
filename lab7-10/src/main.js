@@ -14,7 +14,6 @@ const bodyContainer = document.getElementById('bodyApp');
 const addTaskContainer = document.querySelector('.addTaskCon');
 const taskMainContainer = document.querySelector('.addTaskCon');
 const taskService = new TasksService();
-
 const statuses = Object.values(Status);
 
 

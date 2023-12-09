@@ -17,9 +17,7 @@ export class CardComponent extends AbstractComponent {
         this.#id = id;
         this.#status = status;
         this.#title = title;
-
     }
-
 
     getTemplate() {
         return createCardComponent(this.#status, this.#title);

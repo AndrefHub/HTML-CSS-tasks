@@ -8,7 +8,6 @@ function createTaskMainCon() {
   );
 }
 
-
 export class TaskMainCon extends AbstractComponent {
   getTemplate() {
     return createTaskMainCon();

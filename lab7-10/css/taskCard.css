@@ -1,16 +1,18 @@
-.taskCardCon{
+.taskCardCon {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     gap: 40px;
-    
+
 }
-.taskCardCon div{
+
+.taskCardCon div {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.taskCardHeader{
+
+.taskCardHeader {
     display: flex;
     height: 45px;
     font-size: 24px;
@@ -21,19 +23,22 @@
     width: max-content;
 }
 
-.taskCardHeaderbacklog{
+.taskCardHeaderbacklog {
     background-color: #e3e3e3;
     color: gray
 }
-.taskCardHeaderinProcess{
+
+.taskCardHeaderinProcess {
     background: #d6e7ff;
     color: #3e8def;
 }
-.taskCardHeaderdone{
+
+.taskCardHeaderdone {
     background: #d7f9e0;
     color: #92c781;
 }
-.taskCardHeaderbin{
+
+.taskCardHeaderbin {
     background: #fbe3e3;
     color: #d5837b;
 }
