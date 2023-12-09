@@ -20,18 +20,3 @@ subscriptionForm.addEventListener("submit", function (e) {
     successMessage.style.display = "block";
     this.reset();
 });
-
-const galleryImages = document.querySelectorAll(".image-gallery img");
-galleryImages.forEach((img) => {
-    img.addEventListener("click", function () {
-        const overlay = document.createElement("div");
-        overlay.className = "overlay";
-        const enlargedImage = document.createElement("img");
-        enlargedImage.src = this.src;
-        overlay.appendChild(enlargedImage);
-        overlay.addEventListener("click", function () {
-            document.body.removeChild(overlay);
-        });
-        document.body.appendChild(overlay);
-    });
-});
