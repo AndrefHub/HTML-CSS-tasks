@@ -1,4 +1,4 @@
-import { staticItems } from "./const.js";
+// import { staticItems } from "./const.js";
 
 document.addEventListener("DOMContentLoaded", function () {
 	const items = [
@@ -6,9 +6,15 @@ document.addEventListener("DOMContentLoaded", function () {
 		'Хлеб',
 		'Манго',
 		'Творог',
-		'Сметана'
+		'Сметана',
+		"Питься",
+		"Кыстыбый",
+		"Чак-чак",
+		"Баурсак",
+		"Губадия"
 	];
 	const searchInput = document.getElementById("search-input");
+	const list = document.getElementById("list").getElementsByTagName("li");
 
 	function render(items) {
 		const listContainer = document.getElementById('list');
@@ -21,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	}
 
-	const list = document.getElementById("list").getElementsByTagName("li");
 
 	searchInput.addEventListener("input", function () {
 		const searchTerm = searchInput.value.toLowerCase();
