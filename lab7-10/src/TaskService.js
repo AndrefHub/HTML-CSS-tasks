@@ -18,6 +18,8 @@ export class TasksService {
     }
 
     deleteAll() {
+        const filteredTasks = this.#boardTasks.filter(task => task.status !== 'bin');
+        this.#boardTasks = filteredTasks;
         this.#boardTasks.length = 0;
     }
 
